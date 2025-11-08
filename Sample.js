@@ -17,6 +17,4 @@ readableStream.on('error', (err) => {
   console.error('Error reading file:', err);
 });
 
-writableStream.on('error', (err) => {
-  console.error('Error writing file:', err);
-});
+
