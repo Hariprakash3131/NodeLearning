@@ -18,3 +18,6 @@ readableStream.on('error', (err) => {
 });
 
 
+writableStream.on('error', (err) => {
+  console.error('Error writing file:', err);
+});
